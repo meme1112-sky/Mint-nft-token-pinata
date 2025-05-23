@@ -4,7 +4,7 @@
     "mint": "node --loader ts-node/esm --experimental-specifier-resolution=node src/mint.ts",
     "upload": "node --loader ts-node/esm --experimental-specifier-resolution=node src/upload-metadata.ts",
     "upload-image": "node --loader ts-node/esm --experimental-specifier-resolution=node src/upload-image.ts",
-    "start": "ts-node src/index.ts"
+    "start": "node init && ts-node src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^20.17.50",
